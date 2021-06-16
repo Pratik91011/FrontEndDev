@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!--Bootstrap icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <!--Custom StyleSheet-->
+  <link rel="stylesheet" href="style.css">
+  <title>FrontEndDev</title>
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg bg-light navbar-light py-3">
+    <div class="container">
+
+      <a href="#" class="navbar-brand">FrontEndDev</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#learn" class="nav-link">Learn</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#courses" class="nav-link">Courses</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#instructors" class="nav-link">Instructors</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#faq" class="nav-link">FAQ</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Showcase-->
+  <section class="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1>Become a <span class="text-warning">Web Developer</span></h1>
+          <p class="lead my-4">
+            Web Development is one of the most in demand skills in the IT industry. <br>Learn Web Development from us
+            and become a <em>Front-End Web Developer
+            </em> yourself.
+          </p>
+          <button class="btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Enroll</button>
+        </div>
+        <img class="img-fluid w-50 d-none d-sm-block" src="img/show.svg" alt="Showcase Image">
+      </div>
+    </div>
+  </section>
+
+  <!--Boxes-->
+  <section class="p-5">
+    <div class="container">
+      <h2>We Provide : </h2>
+      <div class="row text-center g-4">
+        <div class="col-md">
+          <div class="card text-dark">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-laptop-fill"></i>
+              </div>
+              <h3 class="card-title mb-3">
+                Online
+              </h3>
+              <p class="card-text">
+                We provide Online Trainings. <br>Learn from the comfort of your home.
+              </p>
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card text-dark">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-file-code-fill"></i>
+              </div>
+              <h3 class="card-title mb-3">
+                One-to-One Mentorship
+              </h3>
+              <p class="card-text">
+                Get One-to-One Mentorship from our instructors. <br>3hrs daily untill the course is over.
+              </p>
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card text-dark">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-person-circle"></i>
+              </div>
+              <h3 class="card-title mb-3">
+                Offline
+              </h3>
+              <p class="card-text">
+                We provide Offline training as well. <br>Get the best hands-on training.
+              </p>
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!--Learn Section-->
+  <section id="learn" class="p-5">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <img src="img/learn.svg" alt="fundamentals" class="img-fluid">
+        </div>
+        <div class="col-md p-5">
+          <p class="lead">
+            Front end development is mostly focused on what some may say the "client side" of development. Front end
+            developers performs design, and debugging applications along with ensuring a
+            seamless user experience. You will know how to manage what people first see in their browser. As a front end
+            developer you
+            are responsible for the look, feel and ultimately design of the site.
+          </p>
+          <p class="lead">
+            Front end languages include HTML, CSS, Javascript and some Javascript libraries. While JQuery is going out
+            of style (modern browsers
+            now preferrably use <em>AngularJs or ReactJS</em>)
+          </p>
+          <a href="#" class="btn btn-light mt-3">
+            <i class="bi bi-chevron-right"></i>Read More
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-5 bg-warning">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md p-5">
+          <h2>Learn HTML-CSS</h2>
+          <p class="lead">
+            HyperText Markup Language (HTML) is a simple markup system used to create hypertext documents that are
+            portable from one platform to another. HTML provides the structure
+          </p>
+          <p class="lead">
+            CSS is the language we use to style a Web page. CSS provides the styling that is the look of a web page
+          </p>
+          <a href="#" class="btn btn-light mt-3">
+            <i class="bi bi-chevron-right"></i>Read More
+          </a>
+        </div>
+        <div class="col-md">
+          <img src="img/htmcss.svg" alt="fundamentals" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Courses-->
+  <section class="p-5" id="courses">
+    <div class="container">
+      <div class="row text-center g-4">
+        <h2 class="mb-3">Courses we offer : </h2>
+        <div class="col-md">
+          <div class="card text-dark">
+            <div class="card-body text-center">
+              <div class="mb-3">
+                <img src="img/css.png" class="course" alt="">
+              </div>
+              <h3 class="card-title mb-3">
+                HTML-CSS
+              </h3>
+              <p class="card-text">
+                Learn HTML-CSS and develop beautiful static websites.
+              </p>
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card text-dark">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <img src="img/js.png" class="course" alt="">
+              </div>
+              <h3 class="card-title mb-3">
+                Javascript
+              </h3>
+              <p class="card-text">
+                Javascript is the language of web. Learn Javascript to add functionality to the web pages.
+              </p>
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card text-dark">
+            <div class="card-body text-center">
+              <div class="mb-3">
+                <img src="img/react.jpg" class="course" alt="">
+              </div>
+              <h3 class="card-title mb-3">
+                ReactJS
+              </h3>
+              <p class="card-text">
+                React Js is a JS library. Learn ReactJS to develop beautiful dynamic web pages.
+              </p>
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!--Instructors-->
+  <section id="instructors" class="pt-lg-5 p-5 mb-5 bg-warning">
+    <div class="container">
+      <h2 class="text-center text-white">Our Instructors</h2>
+      <div class="p lead text-center text-white mb-5">
+        <p> Our Instructors have more than 5+yrs of teaching experience</p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card bg-light text-dark">
+              <div class="card-body text-center">
+                <img src="img/prof.png" alt="instructor" class="instructor-img" />
+                <h3 class="card-title mb-3">Pratik Roychowdhury</h3>
+                <p>Full Stack Web Developer, teaching students for 6 years</p>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-github text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card bg-light text-dark">
+              <div class="card-body text-center">
+                <img src="img/prof.png" alt="instructor" class="instructor-img" />
+                <h3 class="card-title mb-3">Sumit Kumar</h3>
+                <p>Front-End Web Developer, teaching students for 7 years</p>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-github text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card bg-light text-dark">
+              <div class="card-body text-center">
+                <img src="img/prof.png" alt="instructor" class="instructor-img" />
+                <h3 class="card-title mb-3">Y. Avinash</h3>
+                <p>Front-End Web Developer, teaching students for 7 years</p>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-github text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!--Testimonials-->
+
+  <section id="testimonials" class="mt-5 p-5">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active" data-bs-interval="7000">
+          <h2 class="testimonial-text">One of the best HTML-CSS course ever</h2>
+          <img class="testimonial-img" src="img/student.svg" alt="profile">
+          <em>Gaurav Chadda</em>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="7000">
+          <h2 class="testimonial-text">One of the best JS course ever</h2>
+          <img class="testimonial-img" src="img/student.svg" alt="profile">
+          <em>Prantik Roychowdhury</em>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="7000">
+          <h2 class="testimonial-text">Everything was being taught in a very simple manner, highly recommended</h2>
+          <img class="testimonial-img" src="img/student.svg" alt="profile">
+          <em>Deep Saha</em>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+
+  <!--FAQ-->
+  <section id="faq" class="p-5">
+    <div class="container">
+      <h2 class="text-center mb-4">
+        FAQ
+      </h2>
+
+      <!--Accordian-->
+
+      <div class="accordion accordion-flush" id="questions">
+        <!--Item 1-->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question1" aria-expanded="false" aria-controls="flush-collapseOne">
+              Where are you located ?
+            </button>
+          </h2>
+          <div id="question1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#questions">
+            <div class="accordion-body">
+              We are located in India, and currently operating in 5 metro cities. <br>Incase your preffered city is
+              not availabe, then you can opt for our online courses.
+            </div>
+          </div>
+        </div>
+
+        <!--Item 2-->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question2" aria-expanded="false" aria-controls="flush-collapseOne">
+              Do I need prior knowledge to take this course ?
+            </button>
+          </h2>
+          <div id="question2" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#questions">
+            <div class="accordion-body">
+              No, you need not have any prior knowledge in any of the courses as we will cover everything from the
+              very begining. <br>But having it is a <em>plus</em>.
+            </div>
+          </div>
+        </div>
+
+        <!--Item 3-->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question3" aria-expanded="false" aria-controls="flush-collapseOne">
+              What will be taught ?
+            </button>
+          </h2>
+          <div id="question3" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#questions">
+            <div class="accordion-body">
+              Currently we offer 3 courses :- <br>1) HTML and CSS <br>2)Javascript <br>3)ReactJS
+            </div>
+          </div>
+        </div>
+
+        <!--Item 4-->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question4" aria-expanded="false" aria-controls="flush-collapseOne">
+              What to do if I get stuck or need help in training ?
+            </button>
+          </h2>
+          <div id="question4" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#questions">
+            <div class="accordion-body">
+              We have full fledged team of instructors to help you regarding your course matter, and your question
+              will
+              be
+              answered within 24 hours
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--Contact Info-->
+  <section class="p-5">
+    <div class="container">
+      <div class="row g">
+        <div class="col-md">
+          <h2 class="text-center mb-4">
+            Contact Information
+          </h2>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <span class="fw-bold">Address : </span> 1/5 abc lane, xyz, pin:721031
+            </li>
+
+            <li class="list-group-item">
+              <span class="fw-bold">Phone : </span> +1234567890
+            </li>
+
+            <li class="list-group-item">
+              <span class="fw-bold">Email : </span> help@webdev.com
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="p-5 bg-dark text-center position-relative">
+    <div class="container">
+      <p class="lead text-white"> &copy;
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script> FrontEndDev
+      </p>
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle bg-text-light h1"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Enquiry Modal -->
+  <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enroll" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="enroll">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Enroll the Bootcamp</p>
+          <form>
+            <div>
+              <label for="first-name" class="col-form-label">
+                First Name :
+              </label>
+              <input type="text" class="form-control" id=first-name />
+            </div>
+            <div>
+              <label for="last-name" class="col-form-label">
+                LastName :
+              </label>
+              <input type="text" class="form-control" id=last-name />
+            </div>
+            <div>
+              <label for="email" class="col-form-label">
+                Email :
+              </label>
+              <input type="text" class="form-control" id=email />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-warning">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Bootstrap JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
